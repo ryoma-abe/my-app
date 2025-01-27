@@ -3,7 +3,8 @@ import Expression from "./Expression";
 const Example = () => {
   return (
     <>
-      <Child />
+      <Child color="red" />
+      <Child color="red" />
       <Expression />
     </>
   );

@@ -1,5 +1,4 @@
-
-const Child = () => {
+const Child = (props) => {
   return (
     <>
       <p>
@@ -8,7 +7,7 @@ const Child = () => {
         Voluptatum corporis nesciunt voluptatibus nam doloribus minus quis,
         aperiam ad deserunt veritatis?
       </p>
-      <h3>Child Component</h3>
+      <h3 className={`${props.color}`}>Child Component</h3>
     </>
   );
 };
