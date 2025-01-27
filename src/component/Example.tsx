@@ -1,10 +1,12 @@
 import Child from "./Child";
 import Expression from "./Expression";
 const Example = () => {
+  const hello = (arg) => {
+    return `Hello ${arg}`;
+  };
   return (
     <>
-      <Child color="red" />
-      <Child color="red" />
+      <Child num={123} fn={hello} />
       <Expression />
     </>
   );
